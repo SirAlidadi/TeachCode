@@ -18,6 +18,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   - CRUD User API
   - Authenticate User API
   - Contact US Save API
+  - Filter Post API
 
 ## Features
 
