@@ -3,9 +3,19 @@
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 # _✨Todos✨_
-- Create Blog Template
-  - hello
-- ✨Magic ✨
+- Frontend
+  - Home Page
+  - Contact US Page
+  - Post Page
+  - Login & Register Page
+  - About US
+- Admin Panel
+
+- Backend
+  - CRUD Post API
+  - CRUD User API
+  - Authenticate User API
+  - Contact US Save API
 
 ## Features
 
