@@ -1,0 +1,93 @@
+@import url('grid.css');
+@import url('reboot.css');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+* {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13.33px;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    padding: 0px;
+}
+
+.navbar-links {
+    padding: 0px !important;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-link {
+    margin-right: 24px;
+    
+}
+.navbar-link a {
+    color: hsla(0,0%,100%,.84);
+}
+
+.btn-search {
+    border: none;
+    background: none;
+}
+
+.btn-search:focus-visible {
+    border: none;
+}
+
+.logo {
+    width: 8em;
+}
+
+.text-light {
+    color: var(--bs-light);
+}
+
+.text-end {
+    text-align: end;
+}
+
+.bg-info {
+    background-color: #107abe;
+}
+
+.btn {
+    text-align: center;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.btn:hover {
+    color: var(--bs-gray-500);
+}
+
+.form-search {
+    text-align: end;
+}
+
+.text-search {
+    padding: 6px;
+    border: none;
+    box-shadow: #00000030 3px 3px 8px -1px;
+    border-radius: 8px;
+}
+
+.text-search:focus-visible {
+    outline: none;
+}
+
+.btn-search {
+    padding: 6px;
+    border: none;
+    box-shadow: #00000030 3px 3px 8px -1px;
+    border-radius: 8px;
+    width: 32px;
+}

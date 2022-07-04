@@ -4,10 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <title> Teach Blog </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <title> Teach Blog </title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <title>Teach Code</title>
 </head>
 <body>
+    <header>
+        <nav class="navbar container-fluid">
+            <section class="row align-items-center container m-auto mt-3">
+                <div class="col-md-12 col-lg-8">
+                    <img class="logo" src="assets/img/logo.png" alt="logo">
+                </div>
+
+                <div class="d-md-none col-lg-4 text-end">
+                    <a class="btn text-light bg-info" href="$">register</a>
+                    <a class="btn" href="#">login</a>
+                </div>
+            </section>
+
+            <section class="bg-info py-2 mt-3">
+                <div class="container row align-items-center m-auto">
+                    <div class="col-md-12 col-lg-8">
+                        <ul class="navbar-links">
+                            <li class="navbar-link">
+                                <a href="">Home</a>
+                            </li>
+            
+                            <li class="navbar-link">
+                                <a href="">Articles</a>
+                            </li>
+            
+                            <li class="navbar-link">
+                                <a href="">Contact US</a>
+                            </li>
+            
+                            <li class="navbar-link">
+                                <a href="">About US</a>
+                            </li>
+                        </ul>
+                    </div>
     
+                    <div class="d-md-none col-lg-4">
+                        <form class="form-search" action="">
+                            <input class="text-search" type="text" name="search" id="search" placeholder="search...">
+                            <button class="btn-search"><i class="fa fa-search" aria-hidden="true"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </nav>
+    </header>
 </body>
 </html>
